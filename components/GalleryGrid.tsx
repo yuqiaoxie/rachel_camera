@@ -1,15 +1,18 @@
+"use client";
+
 import Image from "next/image";
-import { siteContent } from "@/data/siteContent";
+import { useSiteContent } from "@/components/LanguageProvider";
 
 type GalleryGridProps = {
   limit?: number;
 };
 
 export function GalleryGrid({ limit }: GalleryGridProps) {
+  const { content } = useSiteContent();
   const images =
     typeof limit === "number"
-      ? siteContent.galleryImages.slice(0, limit)
-      : siteContent.galleryImages;
+      ? content.galleryImages.slice(0, limit)
+      : content.galleryImages;
 
   return (
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

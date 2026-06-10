@@ -1,9 +1,12 @@
+"use client";
+
+import { useSiteContent } from "@/components/LanguageProvider";
 import { SectionHeading } from "@/components/SectionHeading";
-import { siteContent } from "@/data/siteContent";
 
 export function Pricing() {
-  const pricing = siteContent.pricing;
-  const bookingPolicy = siteContent.booking.policy;
+  const { content } = useSiteContent();
+  const pricing = content.pricing;
+  const bookingPolicy = content.booking.policy;
 
   return (
     <section id="pricing" className="bg-mist px-5 py-17">
@@ -14,7 +17,7 @@ export function Pricing() {
           description={pricing.description}
         />
         <div className="grid gap-5 md:grid-cols-3">
-          {siteContent.packages.map((item) => (
+          {content.packages.map((item) => (
             <article key={item.name} className="rounded-lg bg-paper p-6 shadow-soft">
               <h3 className="font-serif text-2xl font-semibold">{item.name}</h3>
               <p className="mt-3 text-sm leading-6 text-ink/65">{item.description}</p>
@@ -39,10 +42,10 @@ export function Pricing() {
         <div className="mt-8 grid gap-5 lg:grid-cols-[1fr_1fr]">
           <article className="rounded-lg bg-paper p-7 shadow-soft">
             <h3 className="font-serif text-2xl font-semibold">
-              {siteContent.generalNotes.title}
+              {content.generalNotes.title}
             </h3>
             <ul className="mt-5 space-y-3 text-sm leading-6 text-ink/75">
-              {siteContent.generalNotes.items.map((note) => (
+              {content.generalNotes.items.map((note) => (
                 <li key={note} className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 rounded-full bg-clay" />
                   <span>{note}</span>
@@ -65,9 +68,9 @@ export function Pricing() {
             </article>
 
             <article className="rounded-lg bg-paper p-7 shadow-soft">
-              <h3 className="font-serif text-2xl font-semibold">{siteContent.gearNote.title}</h3>
+              <h3 className="font-serif text-2xl font-semibold">{content.gearNote.title}</h3>
               <p className="mt-3 text-sm leading-6 text-ink/75">
-                {siteContent.gearNote.description}
+                {content.gearNote.description}
               </p>
             </article>
           </div>

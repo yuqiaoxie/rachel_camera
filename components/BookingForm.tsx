@@ -1,11 +1,12 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { siteContent } from "@/data/siteContent";
+import { useSiteContent } from "@/components/LanguageProvider";
 
 export function BookingForm() {
   const [submitted, setSubmitted] = useState(false);
-  const booking = siteContent.booking;
+  const { content } = useSiteContent();
+  const booking = content.booking;
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -63,7 +64,7 @@ export function BookingForm() {
                 <option value="" disabled>
                   {booking.packagePlaceholder}
                 </option>
-                {siteContent.packages.map((item) => (
+                {content.packages.map((item) => (
                   <option key={item.name}>{item.name}</option>
                 ))}
               </select>
@@ -78,7 +79,7 @@ export function BookingForm() {
             </label>
 
             <label className="block text-sm font-semibold">
-              Start Time
+              {booking.fields.startTime.label}
               <input
                 type="time"
                 name="startTime"
@@ -87,7 +88,7 @@ export function BookingForm() {
             </label>
 
             <label className="block text-sm font-semibold">
-              End Time
+              {booking.fields.endTime.label}
               <input
                 type="time"
                 name="endTime"

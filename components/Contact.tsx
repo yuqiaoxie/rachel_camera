@@ -1,7 +1,10 @@
-import { siteContent } from "@/data/siteContent";
+"use client";
+
+import { useSiteContent } from "@/components/LanguageProvider";
 
 export function Contact() {
-  const contact = siteContent.contact;
+  const { content } = useSiteContent();
+  const contact = content.contact;
 
   return (
     <section id="contact" className="bg-paper px-5 py-20">

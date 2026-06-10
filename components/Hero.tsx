@@ -1,9 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import { siteContent } from "@/data/siteContent";
+import { useSiteContent } from "@/components/LanguageProvider";
 
 export function Hero() {
-  const hero = siteContent.hero;
+  const { content } = useSiteContent();
+  const hero = content.hero;
 
   return (
     <section id="home" className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-[1.05fr_0.95fr] md:items-center md:py-24">

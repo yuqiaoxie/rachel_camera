@@ -1,10 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import { GalleryGrid } from "@/components/GalleryGrid";
+import { useSiteContent } from "@/components/LanguageProvider";
 import { SectionHeading } from "@/components/SectionHeading";
-import { siteContent } from "@/data/siteContent";
 
 export function GallerySection() {
-  const gallery = siteContent.gallerySection;
+  const { content } = useSiteContent();
+  const gallery = content.gallerySection;
 
   return (
     <section id="gallery" className="px-5 py-20">

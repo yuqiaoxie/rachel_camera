@@ -1,12 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { GalleryGrid } from "@/components/GalleryGrid";
 import { Header } from "@/components/Header";
+import { useSiteContent } from "@/components/LanguageProvider";
 import { SectionHeading } from "@/components/SectionHeading";
-import { siteContent } from "@/data/siteContent";
 
 export default function GalleryPage() {
-  const gallery = siteContent.galleryPage;
+  const { content } = useSiteContent();
+  const gallery = content.galleryPage;
 
   return (
     <>
