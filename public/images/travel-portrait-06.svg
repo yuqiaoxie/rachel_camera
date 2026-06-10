@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Coastline Story</title>
+  <desc id="desc">A coastal cliff portrait placeholder with sea and soft air.</desc>
+  <rect width="720" height="900" fill="#d5e2df"/>
+  <path d="M0 500c120 38 240 38 360 0s240-38 360 0v400H0Z" fill="#9bb1a6"/>
+  <path d="M0 650 160 485l102 92 118-150 94 113 92-66 154 111v315H0Z" fill="#7d8969"/>
+  <path d="M0 750c210-64 470-49 720 32v118H0Z" fill="#55614b"/>
+  <circle cx="355" cy="418" r="61" fill="#b47d5d"/>
+  <path d="M272 900c12-228 45-405 86-405s74 177 86 405Z" fill="#fffaf3"/>
+  <path d="M296 415c22-76 116-84 134 7-43-29-84-31-134-7Z" fill="#26231f"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Golden Street</title>
+  <desc id="desc">A couple walking through a warm old town street.</desc>
+  <rect width="720" height="900" fill="#f3d8bf"/>
+  <path d="M0 0h172v900H0Z" fill="#b47d5d" opacity=".6"/>
+  <path d="M548 0h172v900H548Z" fill="#7d8969" opacity=".65"/>
+  <path d="M172 0h376v900H172Z" fill="#fffaf3" opacity=".44"/>
+  <path d="M0 690h720v210H0Z" fill="#55614b"/>
+  <circle cx="308" cy="426" r="45" fill="#b47d5d"/>
+  <circle cx="414" cy="420" r="45" fill="#b47d5d"/>
+  <path d="M252 900c8-168 32-401 59-401s57 233 65 401Z" fill="#26231f"/>
+  <path d="M364 900c8-164 27-407 54-407s59 243 67 407Z" fill="#fffaf3"/>
+  <path d="M265 423c18-54 86-58 99 5-30-17-61-18-99-5Z" fill="#26231f"/>
+  <path d="M374 417c20-53 84-53 96 6-30-18-58-19-96-6Z" fill="#26231f"/>
+</svg>

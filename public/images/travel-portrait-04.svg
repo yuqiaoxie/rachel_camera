@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Warm Horizon</title>
+  <desc id="desc">A desert rock portrait placeholder in warm evening tones.</desc>
+  <rect width="720" height="900" fill="#f4c5a5"/>
+  <circle cx="575" cy="210" r="92" fill="#fffaf3" opacity=".7"/>
+  <path d="M0 586c102-123 198-133 288-31 68-142 212-156 432-41v386H0Z" fill="#b47d5d"/>
+  <path d="M0 690c150-43 290-43 420 2s230 43 300 14v194H0Z" fill="#7d8969"/>
+  <circle cx="359" cy="418" r="62" fill="#b47d5d"/>
+  <path d="M279 900c20-236 43-397 84-397s68 161 84 397Z" fill="#26231f"/>
+  <path d="M300 417c18-75 112-93 139-13-45-17-89-16-139 13Z" fill="#26231f"/>
+</svg>

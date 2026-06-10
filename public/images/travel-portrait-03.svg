@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lake Pause</title>
+  <desc id="desc">A calm lake portrait placeholder with soft blue green light.</desc>
+  <rect width="720" height="900" fill="#d8e3df"/>
+  <path d="M0 372c115-38 240-38 360 0s245 38 360 0v528H0Z" fill="#7d8969"/>
+  <path d="M0 510c120 34 240 34 360 0s240-34 360 0v390H0Z" fill="#55614b" opacity=".72"/>
+  <path d="M0 610c135 28 235 20 360-8s230-39 360 11v287H0Z" fill="#f4f1ec" opacity=".74"/>
+  <circle cx="360" cy="362" r="64" fill="#b47d5d"/>
+  <path d="M281 728c16-139 50-244 81-244s67 105 83 244l20 172H261Z" fill="#fffaf3"/>
+  <path d="M299 354c20-73 116-82 134 3-41-24-82-25-134-3Z" fill="#26231f"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Garden Light</title>
+  <desc id="desc">A family portrait placeholder in a quiet garden courtyard.</desc>
+  <rect width="720" height="900" fill="#f4f1ec"/>
+  <path d="M0 0h720v405H0Z" fill="#d9dfcf"/>
+  <circle cx="130" cy="125" r="70" fill="#7d8969" opacity=".65"/>
+  <circle cx="244" cy="102" r="86" fill="#55614b" opacity=".58"/>
+  <circle cx="560" cy="118" r="98" fill="#7d8969" opacity=".58"/>
+  <path d="M0 600c180-70 360-72 720 0v300H0Z" fill="#55614b"/>
+  <circle cx="285" cy="426" r="48" fill="#b47d5d"/>
+  <circle cx="383" cy="410" r="58" fill="#b47d5d"/>
+  <circle cx="455" cy="462" r="38" fill="#b47d5d"/>
+  <path d="M230 900c8-185 28-405 58-405s53 220 61 405Z" fill="#fffaf3"/>
+  <path d="M326 900c12-214 30-428 61-428s57 214 69 428Z" fill="#26231f"/>
+  <path d="M413 900c8-152 19-362 45-362s46 210 54 362Z" fill="#fffaf3"/>
+</svg>

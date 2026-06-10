@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Natural travel portrait placeholder</title>
+  <desc id="desc">A warm outdoor portrait illustration with mountain light.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d8e2d0"/>
+      <stop offset="52%" stop-color="#f1d1b8"/>
+      <stop offset="100%" stop-color="#b47d5d"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#55614b"/>
+      <stop offset="100%" stop-color="#7d8969"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#sky)"/>
+  <circle cx="690" cy="220" r="120" fill="#fffaf3" opacity=".72"/>
+  <path d="M0 635 190 405l150 190 155-250 220 290 185-205v695H0Z" fill="#55614b" opacity=".72"/>
+  <path d="M0 730c160-74 310-96 450-67s290 7 450-68v530H0Z" fill="url(#ground)"/>
+  <path d="M352 562c38-84 164-84 202 0 20 46 12 105-11 147H363c-23-42-31-101-11-147Z" fill="#26231f"/>
+  <circle cx="453" cy="532" r="78" fill="#b47d5d"/>
+  <path d="M345 782c13-91 80-142 108-142s95 51 108 142l29 207H316Z" fill="#fffaf3"/>
+  <path d="M405 632c28 34 68 34 96 0v83c-26 27-70 27-96 0Z" fill="#b47d5d"/>
+  <path d="M315 972h276l-22 153H337Z" fill="#f4f1ec"/>
+  <path d="M255 785c-42 76-55 158-39 246h89l35-248Z" fill="#fffaf3"/>
+  <path d="M651 785c42 76 55 158 39 246h-89l-35-248Z" fill="#fffaf3"/>
+</svg>

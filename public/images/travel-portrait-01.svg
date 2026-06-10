@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Alpine Morning</title>
+  <desc id="desc">A mountain portrait placeholder in soft morning colors.</desc>
+  <rect width="720" height="900" fill="#dce6d2"/>
+  <circle cx="552" cy="150" r="78" fill="#fffaf3" opacity=".82"/>
+  <path d="M0 452 155 235l135 162 118-210 167 243 145-176v646H0Z" fill="#7d8969"/>
+  <path d="M0 570c122-58 242-70 360-36s238 25 360-28v394H0Z" fill="#55614b"/>
+  <circle cx="356" cy="424" r="58" fill="#b47d5d"/>
+  <path d="M285 703c10-123 42-197 75-197 32 0 68 74 78 197l12 197H273Z" fill="#fffaf3"/>
+  <path d="M288 422c24-70 126-77 146 8-46-24-91-28-146-8Z" fill="#26231f"/>
+</svg>
