@@ -44,13 +44,13 @@ export function BookingForm() {
               />
             </label>
             <label className="block text-sm font-semibold">
-              {booking.fields.email.label}
+              {booking.fields.WHATSAPP.label}
               <input
                 required
-                type="email"
-                name="email"
+                type="tel"
+                name="WHATSAPP"
                 className="mt-2 w-full rounded-lg border border-ink/12 bg-white px-4 py-3 font-normal outline-none transition focus:border-forest"
-                placeholder={booking.fields.email.placeholder}
+                placeholder={booking.fields.WHATSAPP.placeholder}
               />
             </label>
             <label className="block text-sm font-semibold">
@@ -73,6 +73,24 @@ export function BookingForm() {
               <input
                 type="date"
                 name="date"
+                className="mt-2 w-full rounded-lg border border-ink/12 bg-white px-4 py-3 font-normal outline-none transition focus:border-forest"
+              />
+            </label>
+
+            <label className="block text-sm font-semibold">
+              Start Time
+              <input
+                type="time"
+                name="startTime"
+                className="mt-2 w-full rounded-lg border border-ink/12 bg-white px-4 py-3 font-normal outline-none transition focus:border-forest"
+              />
+            </label>
+
+            <label className="block text-sm font-semibold">
+              End Time
+              <input
+                type="time"
+                name="endTime"
                 className="mt-2 w-full rounded-lg border border-ink/12 bg-white px-4 py-3 font-normal outline-none transition focus:border-forest"
               />
             </label>

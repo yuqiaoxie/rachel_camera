@@ -2,7 +2,7 @@ export const siteContent = {
   metadata: {
     title: "Rachel Camera | Travel Portrait Photography in Switzerland",
     description:
-      "Affordable natural travel portrait photography in Geneva, Grindelwald, Zermatt, Interlaken, Zurich, and nearby Switzerland locations."
+      "Affordable natural travel portraits across Switzerland's most beautiful destinations."
   },
 
   brand: {
@@ -23,9 +23,9 @@ export const siteContent = {
 
   hero: {
     eyebrow: "Affordable travel portraits in Switzerland",
-    title: "Natural portraits for your Switzerland trip.",
+    title: "Capture Your Swiss Memories",
     description:
-      "Warm, relaxed portrait sessions in Geneva, Grindelwald, Zermatt, Interlaken, Zurich, and nearby areas. Available in English and Chinese, with natural editing and no stiff posing.",
+      "Warm and relaxed portrait sessions across Switzerland's most beautiful destinations.",
     primaryButton: "Book a Session",
     secondaryButton: "View Gallery",
     imageAlt: "Natural travel portrait photography in Switzerland",
@@ -36,9 +36,9 @@ export const siteContent = {
 
   gallerySection: {
     eyebrow: "Gallery",
-    title: "Natural portraits across Switzerland",
+    title: "Natural Portraits across Switzerland",
     description:
-      "A warm, relaxed photography style for travelers who want real memories in beautiful Swiss locations without heavy editing or forced posing.",
+      "A relaxed photography style for travelers who want real memories in beautiful Swiss locations",
     button: "Open Full Gallery"
   },
 
@@ -46,14 +46,14 @@ export const siteContent = {
     eyebrow: "Photo Gallery",
     title: "Warm travel portraits in Swiss locations",
     description:
-      "A relaxed visual style for visitors, couples, families, and solo travelers in Geneva, Grindelwald, Zermatt, Interlaken, Zurich, and nearby areas.",
+      "A relaxed visual style for visitors, couples, families, and solo travelers Switzerland's most beautiful destinations",
     button: "Request a Session"
   },
 
   galleryImages: [
     {
       src: "/images/travel-portrait-01.svg",
-      alt: "Natural portrait session on a quiet Swiss mountain path",
+      alt: "Natural Portrait session on a quiet Swiss mountain path",
       title: "Mountain Light",
       location: "Grindelwald"
     },
@@ -91,56 +91,77 @@ export const siteContent = {
 
   pricing: {
     eyebrow: "Pricing",
-    title: "Affordable sessions with flexible options",
+    title: "Clear & Simple Pricing for Swiss Travel Portraits",
     description:
-      "Choose a simple city walk, a classic travel session, or a scenic destination shoot. Final pricing depends on location, route, and session length."
+      "Choose a short portrait walk, a relaxed half-day session, or a full-day journey."
   },
 
   // Edit package names, prices, descriptions, and included features here.
   packages: [
     {
-      name: "Essential Portrait Walk",
-      price: "Affordable",
+      name: "Wander Session",
+      price: "50 CHF/Hour",
       description:
-        "A simple, relaxed session for solo travelers or couples who want natural photos without a long shoot.",
+        "An introductory offer for simple, natural travel portraits.",
+      priceLines: ["2 people: 70 CHF/h"],
       features: [
-        "Short outdoor session",
-        "1 easy-to-reach location",
-        "Natural posing guidance",
-        "Light, warm editing"
+        "Best for short portrait sessions",
+        "Ideal for Geneva or nearby areas",
+        "Relaxed natural posing guidance",
+        "A simple way to capture warm travel memories"
       ]
     },
     {
-      name: "Classic Travel Session",
-      price: "Most Popular",
+      name: "Story Session",
+      price: "130 CHF/3 Hours",
       description:
-        "A comfortable portrait experience with time for walking, scenery, and a fuller Switzerland travel story.",
+        "A relaxed half-day portrait walk with more variety in locations, scenery, and backgrounds.",
+      priceLines: ["2 people: 170 CHF"],
       features: [
-        "Ideal for Geneva, Zurich, or Interlaken",
-        "Solo, couple, or small family portraits",
-        "Warm natural color editing",
-        "English or Chinese communication"
+        "Recommended for areas outside Geneva",
+        "Suitable for Interlaken, Grindelwald, or similar routes",
+        "More time for walking and changing backgrounds"
       ]
     },
     {
-      name: "Scenic Destination Session",
-      price: "Custom",
+      name: "Daylight Journey",
+      price: "230 CHF/ 7 Hours",
       description:
-        "A flexible session for mountain towns and special routes such as Grindelwald, Zermatt, or nearby areas.",
+        "A full-day travel photo journey for longer sessions and destination-style shoots.",
+      priceLines: ["2 people: 300 CHF"],
       features: [
-        "Location planning support",
-        "Mountain, lake, or city routes",
-        "Relaxed no-pressure shooting style",
-        "No heavy retouching or over-editing"
+        "Maximum session length: 7 hours",
+        "Time starts from my departure time",
+        "Best for longer travel photo sessions"
       ]
     }
   ],
+
+  generalNotes: {
+    title: "Good to Know",
+    // Edit general service notes here.
+    items: [
+      "English and Chinese speaking.",
+      "For areas outside Geneva, clients cover travel expenses and any required location or attraction entry tickets.",
+      "Clients receive all usable original photos from the session.",
+      "Edited photos are not included by default, but lightly edited photos can be requested as an add-on.",
+      "Route planning is not included, but I am happy to suggest photo-friendly spots when possible.",
+      "A 20% booking deposit is required in advance to confirm the session.",
+      "A 5% thank-you discount is available for clients who are happy to share and tag my photography service on Facebook, Instagram, or TikTok."
+    ]
+  },
+
+  gearNote: {
+    title: "Camera Gear",
+    description:
+      "Sessions are photographed with a Canon R10 and 18-150mm and 100-400mm lenses."
+  },
 
   booking: {
     eyebrow: "Booking Request",
     title: "Request your Switzerland portrait session.",
     description:
-      "Share your travel dates, preferred Swiss location, and whether you prefer English or Chinese communication. Rachel will reply with availability, location ideas, and next steps.",
+      "Share your travel dates, preferred Swiss location. Rachel will reply with availability, location ideas, and next steps.",
     successMessage:
       "Thank you. Rachel will review your Switzerland session request and reply with availability.",
     submitButton: "Send Booking Request",
@@ -150,9 +171,9 @@ export const siteContent = {
         label: "Name",
         placeholder: "Your name"
       },
-      email: {
-        label: "Email",
-        placeholder: "you@example.com"
+      WHATSAPP: {
+        label: "WhatsApp",
+        placeholder: "+XX XXX XXXXXXX"
       },
       package: {
         label: "Session Type"
@@ -171,25 +192,40 @@ export const siteContent = {
       }
     },
     // Edit booking policies here when you add deposits, cancellation rules, or delivery timing.
-    policy:
-      "Rachel will reply with availability, location ideas, and next steps."
+    policy: {
+      title: "Booking Policy",
+      items: [
+        "A 20% booking deposit is required to confirm the session.",
+        "Cancellations within 48 hours of the session are non-refundable.",
+        "Cancellations made more than 48 hours in advance are subject to a 10% cancellation fee.",
+        "Date changes are free more than 48 hours before the session.",
+        "Date changes within 48 hours of the session are subject to a 10% rescheduling fee.",
+        "For outdoor sessions, if the weather makes shooting unsafe or clearly unsuitable, we can discuss rescheduling."
+      ]
+    }
   },
 
   contact: {
     eyebrow: "Contact",
     title:
-      "Available in Geneva, Grindelwald, Zermatt, Interlaken, Zurich, and nearby areas.",
+      "Based in Geneva, available for travel sessions across Switzerland.",
     description:
-      "Book an affordable natural portrait session for your Switzerland trip. Sessions are relaxed, warm, and lightly edited so the photos still feel like you.",
+      "Book an affordable and high-quality natural portrait session for your Switzerland trip.",
     // Edit contact details here.
     emailLabel: "Email:",
-    email: "hello@rachelcamera.com",
-    languages: "Languages: English and Chinese.",
-    style: "Style: natural, warm, relaxed, and no over-editing."
+    email: "2417619910@qq.com",
+    instaLabel: "Instagram:",
+    instaHandle: "@camera_rachel",
+    instagramUrl: "https://www.instagram.com/camera_rachel",
+    WHATSAPPLabel: "WhatsApp:",
+    WHATSAPP: "+41 78 2047859",
+    whatsappUrl: "https://wa.me/41782047859",
+    noteTitle: "Let's capture your Swiss memories together.",
+    
   },
 
   footer: {
-    description: "Affordable natural travel portrait photography in Switzerland."
+    description: "Natural travel portraits across Switzerland."
   },
 
   // General notes for future editing. These are not displayed on the website yet.

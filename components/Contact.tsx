@@ -10,7 +10,7 @@ export function Contact() {
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-clay">
             {contact.eyebrow}
           </p>
-          <h2 className="font-serif text-4xl font-semibold md:text-5xl">
+          <h2 className="font-serif text-4xl font-semibold md:text-4xl">
             {contact.title}
           </h2>
         </div>
@@ -23,8 +23,28 @@ export function Contact() {
                 {contact.email}
               </a>
             </p>
-            <p>{contact.languages}</p>
-            <p>{contact.style}</p>
+            <p>
+              {contact.instaLabel}{" "}
+              <a
+                className="font-semibold text-forest"
+                href={contact.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {contact.instaHandle}
+              </a>
+            </p>
+            <p>
+              {contact.WHATSAPPLabel}{" "}
+              <a
+                className="font-semibold text-forest"
+                href={contact.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {contact.WHATSAPP}
+              </a>
+            </p>
           </div>
         </div>
       </div>
