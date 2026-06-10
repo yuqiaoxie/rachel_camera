@@ -20,9 +20,9 @@ export function Pricing() {
           {content.packages.map((item) => (
             <article key={item.name} className="rounded-lg bg-paper p-6 shadow-soft">
               <h3 className="font-serif text-2xl font-semibold">{item.name}</h3>
-              <p className="mt-3 text-sm leading-6 text-ink/65">{item.description}</p>
-              <p className="mt-6 font-serif text-3xl font-semibold text-forest">{item.price}</p>
-              <ul className="mt-4 font-serif space-y-3 text-m font-semibold text-forest/75">
+              <p className="mt-3 text-l leading-6 text-ink/65">{item.description}</p>
+              <p className="mt-6 font-sans text-3xl font-semibold text-forest">{item.price}</p>
+              <ul className="mt-4 font-sans space-y-3 text-m font-semibold text-forest/75">
                 {item.priceLines.map((priceLine) => (
                   <li key={priceLine}>{priceLine}</li>
                 ))}

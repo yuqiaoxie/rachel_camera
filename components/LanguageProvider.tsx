@@ -27,20 +27,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>(defaultLanguage);
 
   useEffect(() => {
-    const savedLanguage = window.localStorage.getItem("site-language");
-
-    if (savedLanguage === "en" || savedLanguage === "zh") {
-      setLanguageState(savedLanguage);
-    }
-  }, []);
-
-  useEffect(() => {
     document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
   }, [language]);
 
   function setLanguage(nextLanguage: Language) {
     setLanguageState(nextLanguage);
-    window.localStorage.setItem("site-language", nextLanguage);
   }
 
   const value = useMemo(

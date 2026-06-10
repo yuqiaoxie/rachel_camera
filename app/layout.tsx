@@ -4,8 +4,8 @@ import { siteContent } from "@/data/siteContent";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: siteContent.en.metadata.title,
-  description: siteContent.en.metadata.description
+  title: siteContent.zh.metadata.title,
+  description: siteContent.zh.metadata.description
 };
 
 export default function RootLayout({
