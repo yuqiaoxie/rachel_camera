@@ -32,7 +32,7 @@ export const siteContent = {
 
     hero: {
       eyebrow: "瑞士高性价比旅拍",
-      title: "每一张照片都是旅途中记忆的锚点",
+      title: "每一张照片都是旅途中 记忆的锚点",
       description: "在城市街角、湖边与山间，捕捉有温度的旅行瞬间",
       primaryButton: "预约拍摄",
       secondaryButton: "查看作品",
@@ -170,8 +170,8 @@ export const siteContent = {
 
     booking: {
       eyebrow: "预约咨询",
-      title: "准备好记录旅行中的美好瞬间了吗",
-      description: "告诉我你的旅行日期和想拍摄的地点，我会及时回复哦，你也可以在下方联系方式中找到我~",
+      title: "一起记录你的瑞士旅行💕",
+      description: "写下你的旅行日期和想拍摄的地点，我会及时回复哦，你也可以在上方联系方式中找到我~",
       successMessage: "谢谢！Rachel 会查看你的瑞士拍摄需求，并回复可预约时间",
       submitButton: "发送预约需求",
       packagePlaceholder: "选择套餐",
@@ -377,7 +377,6 @@ export const siteContent = {
         "Clients receive all usable original photos from the session.",
         "Edited photos are not included by default, but lightly edited photos can be requested as an add-on.",
         "Route planning is not included, but I am happy to suggest photo-friendly spots when possible.",
-        "A 20% booking deposit is required in advance to confirm the session.",
         "A 5% thank-you discount is available for clients who are happy to share and tag my photography service on Facebook, Instagram, or TikTok."
       ]
     },
@@ -408,9 +407,9 @@ export const siteContent = {
 
     booking: {
       eyebrow: "Booking Request",
-      title: "Request your Switzerland portrait session.",
+      title: "Request your Switzerland Portrait Session.",
       description:
-        "Share your travel dates, preferred Swiss location. Rachel will reply with availability, location ideas, and next steps.",
+        "Share your travel dates, preferred Swiss locations. Rachel will reply with availability, location ideas, and next steps.",
       successMessage:
         "Thank you. Rachel will review your Switzerland session request and reply with availability.",
       submitButton: "Send Booking Request",

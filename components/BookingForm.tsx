@@ -21,7 +21,7 @@ export function BookingForm() {
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-clay">
             {booking.eyebrow}
           </p>
-          <h2 className="font-serif text-4xl font-semibold md:text-5xl">
+          <h2 className="font-serif text-4xl font-semibold md:text-4xl">
             {booking.title}
           </h2>
           <p className="mt-4 text-base leading-8 text-ink/70">
