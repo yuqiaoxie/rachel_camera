@@ -19,7 +19,7 @@ A simple MVP photography booking website for natural travel portrait photography
 - Contact section
 - Reusable React components
 - Placeholder image assets
-- English-only content
+- English website copy with service available in English and Chinese
 
 ## Project Structure
 

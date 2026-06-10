@@ -1,17 +1,19 @@
-import { packages } from "@/data/site";
 import { SectionHeading } from "@/components/SectionHeading";
+import { siteContent } from "@/data/siteContent";
 
 export function Pricing() {
+  const pricing = siteContent.pricing;
+
   return (
     <section id="pricing" className="bg-mist px-5 py-20">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          eyebrow="Pricing"
-          title="Simple packages for meaningful photographs"
-          description="Choose a session based on how much story you want to tell. Every package includes planning support and a private online gallery."
+          eyebrow={pricing.eyebrow}
+          title={pricing.title}
+          description={pricing.description}
         />
         <div className="grid gap-5 md:grid-cols-3">
-          {packages.map((item) => (
+          {siteContent.packages.map((item) => (
             <article key={item.name} className="rounded-lg bg-paper p-7 shadow-soft">
               <h3 className="font-serif text-3xl font-semibold">{item.name}</h3>
               <p className="mt-3 text-sm leading-6 text-ink/65">{item.description}</p>

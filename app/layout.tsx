@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import { siteContent } from "@/data/siteContent";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Rachel Camera | Natural Travel Portrait Photography",
-  description:
-    "Natural travel portrait photography sessions for couples, solo travelers, families, and creative brands."
+  title: siteContent.metadata.title,
+  description: siteContent.metadata.description
 };
 
 export default function RootLayout({
